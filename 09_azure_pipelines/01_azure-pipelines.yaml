@@ -42,10 +42,6 @@ steps:
   displayName: Kubernetes Deploy
   inputs:
     connectionType: 'Azure Resource Manager'
-    azureSubscriptionEndpoint: '4f396e97-0b47-46ed-870f-d45e73eef667'
-- task: Kubernetes@1
-  inputs:
-    connectionType: 'Azure Resource Manager'
     azureSubscriptionEndpoint: 'Azure subscription 1(4f396e97-0b47-46ed-870f-d45e73eef667)'
     azureResourceGroup: 'aks-k8s-cluster-rg'
     kubernetesCluster: 'aks-k8s-cluster'
